@@ -172,7 +172,8 @@ section {
   }
 
   .img {
-    min-height: 4vmin;
+    width: 4vmin;
+    height: auto
   }
 
   figcaption {
