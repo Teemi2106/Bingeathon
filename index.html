@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <link
+      rel="icon"
+      href="/New_Project-removebg-preview.png"
+      type="image/icon type"
+    />
+  </head>
+  <link rel="stylesheet" href="styles.css" />
+  <body>
+    <header>
+      <div class="headerClass">
+        <h1 class="mainHeader">
+          <span style="color: blue">Binge</span>-a-<span
+            style="color: blueviolet"
+            >thon</span
+          >
+        </h1>
+        <sub>Best movies on your bed...</sub>
+      </div>
+      <nav>
+        <ul id="navList">
+          <li><a href="#movies">Movies</a></li>
+          <li><a href="#shows">Series</a></li>
+          <li><a href="https://www.aljazeera.com/news/">News</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2
+          style="
+            width: 100%;
+            background-color: blueviolet;
+            color: white;
+            height: 8vmin;
+            display: flex;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+          "
+          ;
+        >
+          Latest Movies
+        </h2>
+        <section>
+          <div class="container">
+            <div class="carousel">
+              <input
+                type="radio"
+                name="slides"
+                checked="checked"
+                id="slide-1"
+              />
+              <input type="radio" name="slides" id="slide-2" />
+              <input type="radio" name="slides" id="slide-3" />
+              <input type="radio" name="slides" id="slide-4" />
+              <input type="radio" name="slides" id="slide-5" />
+              <input type="radio" name="slides" id="slide-6" />
+              <ul class="carousel__slides">
+                <li class="carousel__slide">
+                  <figure>
+                    <div>
+                      <img
+                        src="https://hips.hearstapps.com/hmg-prod/images/best-teen-movies-2023-magic-flute-640755619b5a5.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <figcaption>
+                      Directed by Ingmar Bergman, "The Magic Flute" is a
+                      cinematic adaptation of Wolfgang Amadeus Mozart's famous
+                      opera of the same name. This fantasy film combines
+                      captivating visuals with Mozart's enchanting music to tell
+                      the story of Prince Tamino's quest to rescue Princess
+                      Pamina with the help of a magical flute and a loyal bird
+                      catcher named Papageno.
+                      <span class="credit">Photo: Tim Marshall</span>
+                    </figcaption>
+                  </figure>
+                </li>
+                <li class="carousel__slide">
+                  <figure>
+                    <div>
+                      <img
+                        src="https://m.media-amazon.com/images/M/MV5BMjUwNjU5NDMyNF5BMl5BanBnXkFtZTgwNzgxNjM2NzM@._V1_FMjpg_UX1000_.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <figcaption>
+                      A part of the Transformers film series, "Bumblebee" is a
+                      science fiction action film directed by Travis Knight. It
+                      serves as a prequel to the original Transformers movies
+                      and focuses on the character Bumblebee, an Autobot who
+                      takes on the form of a Volkswagen Beetle. The film follows
+                      Bumblebee's adventures on Earth and his friendship with a
+                      young girl named Charlie.
+                      <span class="credit">Photo: Christian Joudrey</span>
+                    </figcaption>
+                  </figure>
+                </li>
+                <li class="carousel__slide">
+                  <figure>
+                    <div>
+                      <img
+                        src="https://flxt.tmsimg.com/assets/p18852_p_v10_al.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <figcaption>
+                      Directed by Matt Bettinelli-Olpin and Tyler Gillett, the
+                      2022 installment of the "Scream" franchise is a horror
+                      slasher film that continues the legacy of the iconic
+                      Ghostface killer. The movie blends elements of horror and
+                      self-aware humor as it reintroduces familiar characters
+                      while delivering a new generation of scares and mysteries.
+                      <span class="credit">Photo: Steve Carter</span>
+                    </figcaption>
+                  </figure>
+                </li>
+                <li class="carousel__slide">
+                  <figure>
+                    <div>
+                      <img
+                        src="https://flxt.tmsimg.com/assets/p18601673_v_v8_ah.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <figcaption>
+                      Directed by Teddy Chan, "Double World" is a Chinese
+                      fantasy action film that takes place in a fictional
+                      medieval realm. The story revolves around a young man
+                      named Dong Yilong, who aspires to become a warrior and
+                      protect his kingdom. The film features epic battles,
+                      intricate world-building, and elements of martial arts.
+                      <span class="credit">Photo: Aleksandra Boguslawska</span>
+                    </figcaption>
+                  </figure>
+                </li>
+                <li class="carousel__slide">
+                  <figure>
+                    <div>
+                      <img
+                        src="https://static01.nyt.com/images/2023/07/28/business/28strike-movies/28strike-movies-articleLarge.jpg?quality=75&auto=webp&disable=upscale"
+                        alt=""
+                      />
+                    </div>
+                    <figcaption>
+                      "Kraven" is an upcoming superhero film in Sony's
+                      Spider-Man Universe. It is centered around the character
+                      Sergei Kravinoff, also known as Kraven the Hunter, a
+                      notorious big-game hunter in the Marvel Comics. The film
+                      is expected to explore Kraven's complex character and his
+                      pursuit of one of the most elusive targets, Spider-Man.
+                      <span class="credit">Photo: Rosan Harmens</span>
+                    </figcaption>
+                  </figure>
+                </li>
+                <li class="carousel__slide">
+                  <figure>
+                    <div>
+                      <img
+                        src="https://m.media-amazon.com/images/M/MV5BMDBmYTZjNjUtN2M1MS00MTQ2LTk2ODgtNzc2M2QyZGE5NTVjXkEyXkFqcGdeQXVyNzAwMjU2MTY@._V1_.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <figcaption>
+                      Directed by Christopher Nolan, "Oppenheimer" is an
+                      upcoming biographical drama that explores the life and
+                      work of J. Robert Oppenheimer, the American physicist who
+                      played a pivotal role in the development of the atomic
+                      bomb during World War II. The film is expected to delve
+                      into the moral and ethical dilemmas faced by Oppenheimer
+                      and the scientists involved in the Manhattan Project.
+                      <span class="credit">Photo: Annie Spratt</span>
+                    </figcaption>
+                  </figure>
+                </li>
+              </ul>
+              <ul class="carousel__thumbnails">
+                <li>
+                  <label for="slide-1"
+                    ><img
+                      src="https://hips.hearstapps.com/hmg-prod/images/best-teen-movies-2023-magic-flute-640755619b5a5.jpg"
+                      class="img"
+                      alt=""
+                  /></label>
+                </li>
+                <li>
+                  <label for="slide-2"
+                    ><img
+                      src="https://m.media-amazon.com/images/M/MV5BMjUwNjU5NDMyNF5BMl5BanBnXkFtZTgwNzgxNjM2NzM@._V1_FMjpg_UX1000_.jpg"
+                      class="img"
+                      alt=""
+                  /></label>
+                </li>
+                <li>
+                  <label for="slide-3"
+                    ><img
+                      src="https://flxt.tmsimg.com/assets/p18852_p_v10_al.jpg"
+                      class="img"
+                      alt=""
+                  /></label>
+                </li>
+                <li>
+                  <label for="slide-4"
+                    ><img
+                      src="https://flxt.tmsimg.com/assets/p18601673_v_v8_ah.jpg"
+                      class="img"
+                      alt=""
+                  /></label>
+                </li>
+                <li>
+                  <label for="slide-5"
+                    ><img
+                      src="https://static01.nyt.com/images/2023/07/28/business/28strike-movies/28strike-movies-articleLarge.jpg?quality=75&auto=webp&disable=upscale"
+                      class="img"
+                      alt=""
+                  /></label>
+                </li>
+                <li>
+                  <label for="slide-6"
+                    ><img
+                      src="https://m.media-amazon.com/images/M/MV5BMDBmYTZjNjUtN2M1MS00MTQ2LTk2ODgtNzc2M2QyZGE5NTVjXkEyXkFqcGdeQXVyNzAwMjU2MTY@._V1_.jpg"
+                      class="img"
+                      alt=""
+                  /></label>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </section>
+      <div>
+        <h2
+          style="
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 600;
+            color: white;
+            background-color: darkslateblue;
+            height: 7vmin;
+            display: flex;
+            align-items: center;
+            padding: 3vmin;
+          "
+        >
+          Movies
+        </h2>
+        <section
+          class="movies"
+          id="movies"
+          style="min-height: 80vh; background-color: purple"
+        ></section>
+        <div
+          style="
+            text-align: end;
+            padding-right: 4vmin;
+            height: 6vmin;
+            display: flex;
+            align-items: center;
+            justify-content: end;
+          "
+        >
+          <h3>
+            <a href="#" onclick="(alert('Sorry, Page under development'))"
+              >More</a
+            >
+          </h3>
+        </div>
+      </div>
+      <div>
+        <h2
+          style="
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 600;
+            color: white;
+            background-color: darkslateblue;
+            height: 7vmin;
+            display: flex;
+            align-items: center;
+            padding: 3vmin;
+          "
+        >
+          Series
+        </h2>
+        <section
+          class="shows"
+          id="shows"
+          style="min-height: 80vh; background-color: purple"
+        ></section>
+        <div
+          style="
+            text-align: end;
+            padding-right: 4vmin;
+            height: 6vmin;
+            display: flex;
+            align-items: center;
+            justify-content: end;
+          "
+        >
+          <h3>
+            <a href="#" onclick="(alert('Sorry, Page under development'))"
+              >More</a
+            >
+          </h3>
+        </div>
+      </div>
+      <section>
+        <div id="news"></div>
+      </section>
+    </main>
+    <footer
+      style="background-color: black; text-align: center; color: white"
+      id="footer"
+    >
+      &copy; Bingeathon Co 2023 All Rights Reserved
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
