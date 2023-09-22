@@ -65,3 +65,24 @@ function shows(showList) {
 }
 
 showGrid();
+
+const sections = document.querySelectorAll(".scroll-section");
+
+function checkSections() {
+  sections.forEach((section) => {
+    const sectionTop = section.getBoundingClientRect().top;
+    const windowHeight = window.innerHeight;
+
+    if (sectionTop < windowHeight * 0.75) {
+      section.classList.add("appear");
+    } else {
+      section.classList.remove("appear");
+    }
+  });
+}
+
+// Add an event listener to check the sections on scroll
+window.addEventListener("scroll", checkSections);
+
+// Initial check when the page loads
+window.addEventListener("load", checkSections);
