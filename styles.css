@@ -168,7 +168,7 @@ section {
     flex: 1 1 auto;
     object-fit: cover;
     object-position: center;
-    width: 80%;
+    width: 50%;
     z-index: -99;
   }
 
